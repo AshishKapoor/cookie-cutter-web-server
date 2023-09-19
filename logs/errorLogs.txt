@@ -2,3 +2,4 @@
 19/09/2023	16:09:42	0b440c3d-a9c9-48c2-aa7e-9232b2d6759e	Error Not allowed due to CORS
 19/09/2023	16:10:26	d9c57239-ed53-40d4-97b3-295e2d41aff7	Error Not allowed due to CORS
 19/09/2023	16:10:26	8d1275f2-09a2-4d40-b85d-8cfa0d4df8dc	Error Not allowed due to CORS
+19/09/2023	16:37:42	61212422-026e-469d-9fdd-1d38092056c4	Error ENOENT: no such file or directory, stat '/Users/dev/Developer/Github/sandbox/web-server/views/subdir/text.html'

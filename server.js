@@ -11,27 +11,19 @@ const PORT = process.env.PORT || 8000;
 // built-in middlewares
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
-app.use(express.static(path.join(__dirname, "/public")));
+app.use("/", express.static(path.join(__dirname, "/public")));
+app.use("/subdir", express.static(path.join(__dirname, "/public")));
+
+// routes
+app.use("/", require("./routes/root"));
+app.use("/subdir", require("./routes/subdir"));
+app.use("/employees", require("./routes/api/employees"));
 
 // custom middleware logger
 app.use(logger);
 
 // 3rd party middlewares
 app.use(cors(corsOptions)); // Cross Origin Resource Sharing
-
-// home page
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "views", "index.html"));
-});
-
-app.get("/new-page", (req, res) => {
-  res.sendFile(path.join(__dirname, "views", "new-page.html"));
-});
-
-// redirect
-app.get("/old-page", (req, res) => {
-  res.redirect(301, "/new-page");
-});
 
 app.all("*", (req, res) => {
   res.status(404);

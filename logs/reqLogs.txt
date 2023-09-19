@@ -28,3 +28,13 @@
 19/09/2023	16:26:05	c9c71e4f-2fc1-4c65-97d6-ef5f75784966	GET	undefined	/ 
 19/09/2023	16:26:08	24efdca0-3ba4-48b3-bfd6-2d2f4a0df79c	GET	undefined	/asd 
 19/09/2023	16:26:11	e2dcd432-59e6-4058-a52f-25a28343a627	GET	undefined	/ 
+19/09/2023	16:34:11	ce5d4447-060b-4d78-8a3b-199b8d4b11a1	GET	undefined	/sub 
+19/09/2023	16:36:15	71557fee-b558-4702-baaf-cc5dd1b273aa	GET	undefined	/sub 
+19/09/2023	16:36:17	de22b91b-513f-45c6-b1c8-6e59fae134b5	GET	undefined	/subdir/ 
+19/09/2023	16:36:19	beb8c8b8-1f11-4cca-bf34-21ae299dda7d	GET	undefined	/subdir/ 
+19/09/2023	16:37:20	4913a679-46a3-479f-b0b6-39db19d9ac35	GET	undefined	/subdir/ 
+19/09/2023	16:37:42	9a84e4fc-8299-40ce-a115-ba2243a890c7	GET	undefined	/subdir/text 
+19/09/2023	16:37:55	94ff9ea6-b786-4755-b952-513deb145b16	GET	undefined	/subdir/test 
+19/09/2023	16:39:12	2e8d1c63-93b8-4b4d-ac5e-99a777c184bf	GET	undefined	/subdir/tess 
+19/09/2023	16:39:14	72078f68-560b-4397-a5dc-cf838e3ad78f	GET	undefined	/subdir/ 
+19/09/2023	16:39:16	98b90e6a-4f49-4d1b-b8fe-4bcc1047e530	GET	undefined	/subdir/test 
