@@ -1,0 +1,2 @@
+19/09/2023	15:30:29	a11403bf-0ac9-4fa8-a969-cb7d92ce2aad	GET	undefined	/ 
+19/09/2023	15:30:35	72865df0-a8b4-427e-a674-53542a2efa58	GET	undefined	/new-page 
