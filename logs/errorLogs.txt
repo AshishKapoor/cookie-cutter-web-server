@@ -1,0 +1,4 @@
+19/09/2023	16:09:02	8bcb5d40-0389-403a-adee-8f7dde4b6b92	Error Not allowed due to CORS
+19/09/2023	16:09:42	0b440c3d-a9c9-48c2-aa7e-9232b2d6759e	Error Not allowed due to CORS
+19/09/2023	16:10:26	d9c57239-ed53-40d4-97b3-295e2d41aff7	Error Not allowed due to CORS
+19/09/2023	16:10:26	8d1275f2-09a2-4d40-b85d-8cfa0d4df8dc	Error Not allowed due to CORS
