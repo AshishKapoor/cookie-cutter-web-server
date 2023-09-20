@@ -4,7 +4,7 @@ const path = require("path");
 const cors = require("cors");
 const { logger } = require("./middleware/logEvents");
 const errorHandler = require("./middleware/errorHandler");
-const { corsOptions } = require("./utils/corsConfig");
+const { corsOptions } = require("./config/corsConfig");
 
 const PORT = process.env.PORT || 8000;
 
@@ -12,11 +12,9 @@ const PORT = process.env.PORT || 8000;
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use("/", express.static(path.join(__dirname, "/public")));
-app.use("/subdir", express.static(path.join(__dirname, "/public")));
 
 // routes
 app.use("/", require("./routes/root"));
-app.use("/subdir", require("./routes/subdir"));
 app.use("/employees", require("./routes/api/employees"));
 
 // custom middleware logger

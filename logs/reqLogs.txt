@@ -38,3 +38,4 @@
 19/09/2023	16:39:12	2e8d1c63-93b8-4b4d-ac5e-99a777c184bf	GET	undefined	/subdir/tess 
 19/09/2023	16:39:14	72078f68-560b-4397-a5dc-cf838e3ad78f	GET	undefined	/subdir/ 
 19/09/2023	16:39:16	98b90e6a-4f49-4d1b-b8fe-4bcc1047e530	GET	undefined	/subdir/test 
+20/09/2023	10:21:34	4ff78822-5ebb-4a32-89c2-9aca74243244	GET	undefined	/favicon.ico 
